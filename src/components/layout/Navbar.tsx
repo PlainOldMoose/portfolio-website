@@ -6,13 +6,13 @@ export default function Navbar() {
         <nav className="sticky top-0 z-50 flex items-center justify-between p-4 border-b border-terminal-green text-terminal-green bg-black">
             <div className="flex items-center gap-2">
                 <Terminal size={30}/>
-                <div className="text-2xl font-bold pb-1">guest@luque.dev</div>
+                <a href="#" className="text-2xl font-bold pb-1">guest@luque.dev</a>
                 <span className="cursor-blink">_</span>
             </div>
             <div className="flex gap-6">
-                <a>About</a>
-                <a>My Projects</a>
-                <a>Contact</a>
+                <a href="#about">About</a>
+                <a href="#projects">My Projects</a>
+                <a href="#contact">Contact</a>
             </div>
         </nav>
     );

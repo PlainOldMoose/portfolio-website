@@ -9,6 +9,10 @@
     --font-ibm: "IBM Plex Mono", monospace;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color-bg-black);
     font-family: var(--font-terminal), monospace;
