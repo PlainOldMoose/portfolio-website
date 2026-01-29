@@ -6,7 +6,7 @@ export default function Navbar() {
         <nav className="flex items-center justify-between p-4 border-b border-[#00ff41] text-terminal-green">
             <div className="flex items-center gap-2">
                 <Terminal size={30}/>
-                <div className="text-2xl font-bold pb-1">guest@LUQUE.dev</div>
+                <div className="text-2xl font-bold pb-1">guest@luque.dev</div>
                 <span className="cursor-blink">_</span>
             </div>
             <div className="flex gap-6">
