@@ -1,6 +1,7 @@
 import Navbar from "./components/layout/Navbar.tsx";
 import Hero from "./components/sections/Hero.tsx";
 import About from "./components/sections/About.tsx";
+import Projects from "./components/sections/Projects.tsx";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           <main>
               <Hero/>
               <About/>
+              <Projects/>
           </main>
       </div>
   );
