@@ -23,14 +23,19 @@ export default function Hero() {
                 </div>
 
                 {/*Window Body*/}
-                <div className="px-15 py-15 text-terminal-green">
-                    <span>Hello, I'm</span>
+                <div className="px-5 pt-2 pb-15 text-terminal-green">
+                    <div className="flex flex-col gap-0 text-terminal-green/70 items-baseline pb-10">
+                        <span>{'> INITIALIZING SYSTEM...'}</span>
+                        <span>{'> LOADING PROFILE...'}</span>
+                        <span>{'> STATUS: ONLINE'}</span>
+                        <span>{'> WELCOME TO MY PROFILE'}</span>
+                    </div>
+                    <span className="text-terminal-green/70"> HELLO I'M</span>
                     <pre className="py-10 ascii-art">{ASCII_LOGO}</pre>
                     <div className="flex justify-center items-center gap-2">
                         <ChevronRight size={16}/>
-                        <span>
-                        JUNIOR SOFTWARE ENGINEER
-                        </span>
+                        <span>JUNIOR SOFTWARE ENGINEER</span>
+                        <span className="cursor-blink">█</span>
                     </div>
                 </div>
             </div>
