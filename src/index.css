@@ -4,3 +4,7 @@
     --color-terminal-green: #00ff41;
     --color-bg-black: #000000;
 }
+
+body {
+    background-color: var(--color-bg-black);
+}
