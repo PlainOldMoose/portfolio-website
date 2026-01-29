@@ -1,12 +1,12 @@
 import {ChevronRight} from "lucide-react";
 
 export default function Hero() {
-    const ASCII_LOGO = ` ██╗     ██╗   ██╗ ██████╗ ██╗   ██╗███████╗
- ██║     ██║   ██║██╔═══██╗██║   ██║██╔════╝
- ██║     ██║   ██║██║   ██║██║   ██║█████╗
- ██║     ██║   ██║██║▄▄ ██║██║   ██║██╔══╝
- ███████╗╚██████╔╝╚██████╔╝╚██████╔╝███████╗
- ╚══════╝ ╚═════╝  ╚══▀▀═╝  ╚═════╝ ╚══════╝`;
+    const ASCII_LOGO = `  ██╗     ██╗   ██╗ ██████╗ ██╗   ██╗███████╗
+  ██║     ██║   ██║██╔═══██╗██║   ██║██╔════╝
+██║     ██║   ██║██║   ██║██║   ██║█████╗
+██║     ██║   ██║██║▄▄ ██║██║   ██║██╔══╝
+  ███████╗╚██████╔╝╚██████╔╝╚██████╔╝███████╗
+  ╚══════╝ ╚═════╝  ╚══▀▀═╝  ╚═════╝ ╚══════╝`;
     return (
         <section
             id="home" className="py-10">
@@ -18,7 +18,7 @@ export default function Hero() {
                     <div className="flex gap-2">
                         <div className="w-3 h-3 rounded-full bg-[#ff3333]"/>
                         <div className="w-3 h-3 rounded-full bg-[#ffb000]"/>
-                        <div className="w-3 h-3 rounded-full bg-[#00ff41]"/>
+                        <div className="w-3 h-3 rounded-full bg-terminal-green"/>
                     </div>
                 </div>
 
