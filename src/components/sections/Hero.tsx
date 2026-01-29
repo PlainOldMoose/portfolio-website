@@ -11,10 +11,10 @@ export default function Hero() {
         <section
             id="home" className="py-10">
             {/*Hero Window*/}
-            <div className="border-2 border-[#00ff41] bg-black text-center max-w-4xl mx-auto">
+            <div className="border-2 border-terminal-green bg-black text-center max-w-4xl mx-auto">
 
                 {/* Window Header*/}
-                <div className="px-4 py-2 border-b border-[#00ff41]/50 bg-[#00ff41]/5">
+                <div className="px-4 py-2 border-b border-terminal-green/50 bg-terminal-green/5">
                     <div className="flex gap-2">
                         <div className="w-3 h-3 rounded-full bg-[#ff3333]"/>
                         <div className="w-3 h-3 rounded-full bg-[#ffb000]"/>
@@ -25,7 +25,7 @@ export default function Hero() {
                 {/*Window Body*/}
                 <div className="px-15 py-15 text-terminal-green">
                     <span>Hello, I'm</span>
-                    <pre className="py-10">{ASCII_LOGO}</pre>
+                    <pre className="py-10 ascii-art">{ASCII_LOGO}</pre>
                     <div className="flex justify-center items-center gap-2">
                         <ChevronRight size={16}/>
                         <span>

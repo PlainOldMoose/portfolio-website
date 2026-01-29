@@ -63,4 +63,9 @@ body::after {
     animation: blink 1s step-end infinite;
 }
 
+.ascii-art {
+    line-height: 1;
+    letter-spacing: 0;
+}
+
 
