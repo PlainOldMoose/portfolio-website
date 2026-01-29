@@ -1,10 +1,28 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 @theme {
     --color-terminal-green: #00ff41;
     --color-bg-black: #000000;
+    --font-terminal: "VT323", monospace;
 }
 
 body {
     background-color: var(--color-bg-black);
+    font-family: var(--font-terminal), monospace;
 }
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+.cursor-blink {
+    animation: blink 1s step-end infinite;
+}
+
+
