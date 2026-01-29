@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@theme {
+    --color-terminal-green: #00ff41;
+    --color-bg-black: #000000;
+}
