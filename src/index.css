@@ -4,6 +4,7 @@
 
 @theme {
     --color-terminal-green: #00ff41;
+    --color-terminal-green-glow: #00ff4180;
     --color-bg-black: #000000;
     --font-terminal: "VT323", monospace;
     --font-ibm: "IBM Plex Mono", monospace;
@@ -71,6 +72,12 @@ body::after {
 .ascii-art {
     line-height: 1;
     letter-spacing: 0;
+}
+
+.glow-text {
+    text-shadow:
+            0 0 5px var(--color-terminal-green-glow),
+            0 0 10px rgba(0, 255, 65, 0.3);
 }
 
 
