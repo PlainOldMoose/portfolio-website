@@ -37,7 +37,7 @@ export default function Contact() {
                         </div>
                         <p className="text-left font-ibm text-sm border-l-2 border-terminal-green/30 pl-4 mb-12">
                             I'm always open to discussing new projects, creative ideas, or opportunities to collaborate.
-                            Whether you have a question or just want to say hello, my inbox is always open
+                            Whether you have a question or just want to say hello, my inbox is always open.
                         </p>
                         <div className="space-y-6 text-terminal-green/50">
                             <p>{'>'} PRIMARY_CHANNEL</p>

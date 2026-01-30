@@ -21,7 +21,6 @@ export default function About() {
 
             {/*Section body*/}
             <div className="grid grid-cols-2 items-start p-6 gap-x-8">
-
                 {/*Column 1*/}
                 <div>
                     {/*About Box*/}
@@ -37,7 +36,6 @@ export default function About() {
                                 I'm Luque van der Merwe, a software engineer specialising in Java Spring Boot
                                 backends with PostgreSQL and REST APIs - currently expanding into React for full-stack work.
                                 My journey in tech started at age 9 when I curiously dismantled (and broke) my family's computer.
-
                         </span>
                         </p>
                         <p className="flex gap-2 pt-4">
