@@ -1,0 +1,9 @@
+name: Build and Push Images
+
+on:
+  push:
+    branches: [main]
+
+  env:
+    REGISTRY: ghcr.io
+    IMAGE_NAME: ghcr.io/plainoldmoose/portfolio
