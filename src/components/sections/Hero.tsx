@@ -1,4 +1,6 @@
 import {ChevronRight} from "lucide-react";
+import {FaGithub, FaLinkedin} from "react-icons/fa";
+import {SiMaildotru} from "react-icons/si";
 
 export default function Hero() {
     const ASCII_LOGO = `  ██╗     ██╗   ██╗ ██████╗ ██╗   ██╗███████╗
@@ -23,7 +25,7 @@ export default function Hero() {
                 </div>
 
                 {/*Window Body*/}
-                <div className="px-5 pt-2 pb-15 text-terminal-green">
+                <div className="px-5 pt-2 pb-5 text-terminal-green">
                     <div className="flex flex-col gap-0 text-terminal-green/70 items-baseline pb-10">
                         <span>{'> INITIALIZING SYSTEM...'}</span>
                         <span>{'> LOADING PROFILE...'}</span>
@@ -36,6 +38,13 @@ export default function Hero() {
                         <ChevronRight size={16}/>
                         <span>JUNIOR SOFTWARE ENGINEER</span>
                         <span className="cursor-blink">█</span>
+                    </div>
+                    <div className="mt-8 pt-4 border-t border-terminal-green/20"/>
+                    <div className="flex items-center justify-center gap-4">
+                        <span className="text-xs text-terminal-green/50">LINKS:</span>
+                        <FaGithub size={32} opacity={0.30}/>
+                        <FaLinkedin size={32} opacity={0.30}/>
+                        <SiMaildotru size={32} opacity={0.30}/>
                     </div>
                 </div>
             </div>
