@@ -83,6 +83,11 @@ export default function About() {
                             </div>
                         ))}
                     </div>
+                    {/*Footer*/}
+                    <div className="flex text-terminal-green/50 flex py-4">
+                        <ChevronRight/>
+                        <span>SCAN COMPLETE.</span>
+                    </div>
                 </div>
             </div>
         </section>
