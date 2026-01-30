@@ -37,7 +37,7 @@ export default function Hero() {
                     <pre className="py-10 ascii-art">{ASCII_LOGO}</pre>
                     <div className="flex justify-center items-center gap-2">
                         <ChevronRight size={16}/>
-                        <span className="glow-text text-2xl">JUNIOR SOFTWARE ENGINEER</span>
+                        <span className="glow-text text-2xl">SOFTWARE ENGINEER</span>
                         <span className="cursor-blink">█</span>
                     </div>
                     <div className="mt-8 pt-4 border-t border-terminal-green/20"/>
