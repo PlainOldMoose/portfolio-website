@@ -87,4 +87,18 @@ body::after {
             inset 0 0 20px rgba(0, 255, 65, 0.05);
 }
 
+.retro-button {
+    background: transparent;
+    border: 2px solid var(--color-terminal-green);
+    color: var(--color-terminal-green);
+    letter-spacing: 2px;
+    transition: all 0.1s ease;
+    box-shadow: 4px 4px 0 0 var(--color-terminal-green);
+}
+
+.retro-button:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 2px 2px 0 0 var(--color-terminal-green);
+}
+
 
