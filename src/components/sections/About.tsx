@@ -34,19 +34,19 @@ export default function About() {
                         <p className="flex gap-2 ">
                             <ChevronRight size={16} className="shrink-0 mt-1"/>
                             <span className="font-ibm text-s leading-snug">
-                            I'm Luque van der Merwe, a full stack software engineer with
-                            a strong focus on clean, efficient, and user-friendly web applications.
-                            My journey in tech started at age 9 when I curiously dismantled (and broke)
-                            my family's computer. Now it's grown into a full blown obsession with building
-                            apps to impact real problems.
+                                I'm Luque van der Merwe, a software engineer specialising in Java Spring Boot
+                                backends with PostgreSQL and REST APIs - currently expanding into React for full-stack work.
+                                My journey in tech started at age 9 when I curiously dismantled (and broke) my family's computer.
+
                         </span>
                         </p>
                         <p className="flex gap-2 pt-4">
                             <ChevronRight size={16} className="shrink-0 mt-1"/>
                             <span className="font-ibm text-s leading-snug">
-                            When i'm not coding i'm probably playing videogames or rocking out to
-                            heavy metal music. I have a hunger for learning and I really enjoy
-                            learning new skills and teaching them to others.
+                                These days, I channel that curiosity into building real systems: I run a live DotA 2 league management
+                                platform and maintain Java plugins for a 150+ member Minecraft community.
+                                When I'm not coding, I'm probably gaming or blasting heavy metal.
+                                I have a hunger for learning and genuinely enjoy teaching what I pick up to others.
                         </span>
                         </p>
                     </div>
