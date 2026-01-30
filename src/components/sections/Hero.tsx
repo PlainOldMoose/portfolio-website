@@ -16,12 +16,13 @@ export default function Hero() {
             <div className="border-2 border-terminal-green bg-black text-center max-w-4xl mx-auto">
 
                 {/* Window Header*/}
-                <div className="px-4 py-2 border-b border-terminal-green/50 bg-terminal-green/5">
-                    <div className="flex gap-2">
+                <div className="grid grid-cols-3 px-4 py-1 border-b border-terminal-green/50 bg-terminal-green/5">
+                    <div className="flex gap-2 self-center">
                         <div className="w-3 h-3 rounded-full bg-[#ff3333]"/>
                         <div className="w-3 h-3 rounded-full bg-[#ffb000]"/>
                         <div className="w-3 h-3 rounded-full bg-terminal-green"/>
                     </div>
+                    <div className="text-center text-s text-terminal-green">Terminal</div>
                 </div>
 
                 {/*Window Body*/}
