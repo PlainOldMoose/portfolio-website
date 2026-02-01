@@ -27,7 +27,7 @@ export default function Hero() {
 
                 {/*Window Body*/}
                 <div className="px-5 pt-2 pb-5 text-terminal-green">
-                    <div className="flex flex-col gap-0 text-terminal-green/70 items-baseline pb-10">
+                    <div className="flex flex-col gap-0 items-baseline pb-10 text-terminal-green/50">
                         <span>{'> INITIALIZING SYSTEM...'}</span>
                         <span>{'> LOADING PROFILE...'}</span>
                         <span>{'> STATUS: ONLINE'}</span>
@@ -37,15 +37,23 @@ export default function Hero() {
                     <pre className="py-10 ascii-art">{ASCII_LOGO}</pre>
                     <div className="flex justify-center items-center gap-2">
                         <ChevronRight size={16}/>
-                        <span className="glow-text text-2xl">SOFTWARE ENGINEER</span>
+                        <span className="glow-text text-2xl">FULL-STACK SOFTWARE ENGINEER</span>
                         <span className="cursor-blink">█</span>
+                    </div>
+                    <div className="flex text-xl flex flex-col font-bold">
+                        <span>{'> LOCATION: HIGH WYCOMBE, UK'}</span>
+                        <span>{'> AVAILABLE: TRUE'}</span>
                     </div>
                     <div className="mt-8 pt-4 border-t border-terminal-green/20"/>
                     <div className="flex items-center justify-center gap-4">
-                        <span className="text-xs text-terminal-green/50">LINKS:</span>
-                        <FaGithub size={32} opacity={0.30}/>
-                        <FaLinkedin size={32} opacity={0.30}/>
-                        <SiMaildotru size={32} opacity={0.30}/>
+                        <a href="https://github.com/PlainOldMoose" target="_blank" rel="noreferrer noopener"><FaGithub
+                            size={32} opacity={0.30} className="hover hover:opacity-100"/></a>
+                        <a href="https://www.linkedin.com/in/luque-van-der-merwe/" target="_blank"
+                           rel="noreferrer noopener"><FaLinkedin
+                            size={32} opacity={0.30} className="hover hover:opacity-100"/></a>
+                        <a href="mailto:luque@vandermerwe.uk" target="_blank"
+                           rel="noreferrer noopener"><SiMaildotru size={32} opacity={0.30}
+                                                                  className="hover hover:opacity-100"/></a>
                     </div>
                 </div>
             </div>
