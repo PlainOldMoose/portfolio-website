@@ -46,6 +46,7 @@ export default function Hero() {
                     </div>
                     <div className="flex mt-8 flex-col gap-0 items-baseline text-terminal-green/50">
                         <span>{'> PROFILE LOADED...'}</span>
+                        <span>{'> WELCOME, GUEST'}</span>
                         <span>{'>'} <span className="cursor-blink">█</span></span>
                     </div>
                     <div className="my-6 border-t border-terminal-green/20"/>
