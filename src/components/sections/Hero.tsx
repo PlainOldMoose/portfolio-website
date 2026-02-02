@@ -34,17 +34,21 @@ export default function Hero() {
                         <span>{'> WELCOME TO MY PROFILE'}</span>
                     </div>
                     <span className="text-terminal-green/70"> HELLO I'M</span>
-                    <pre className="py-10 ascii-art">{ASCII_LOGO}</pre>
+                    <pre className="pt-4 pb-10 ascii-art">{ASCII_LOGO}</pre>
                     <div className="flex justify-center items-center gap-2">
                         <ChevronRight size={16}/>
                         <span className="glow-text text-2xl">FULL-STACK SOFTWARE ENGINEER</span>
-                        <span className="cursor-blink">█</span>
+
                     </div>
                     <div className="flex text-xl flex flex-col font-bold">
                         <span>{'> LOCATION: HIGH WYCOMBE, UK'}</span>
                         <span>{'> AVAILABLE: TRUE'}</span>
                     </div>
-                    <div className="mt-8 pt-4 border-t border-terminal-green/20"/>
+                    <div className="flex mt-8 flex-col gap-0 items-baseline text-terminal-green/50">
+                        <span>{'> PROFILE LOADED...'}</span>
+                        <span>{'>'} <span className="cursor-blink">█</span></span>
+                    </div>
+                    <div className="my-6 border-t border-terminal-green/20"/>
                     <div className="flex items-center justify-center gap-4">
                         <a href="https://github.com/PlainOldMoose" target="_blank" rel="noreferrer noopener"><FaGithub
                             size={32} opacity={0.30} className="hover hover:opacity-100"/></a>
