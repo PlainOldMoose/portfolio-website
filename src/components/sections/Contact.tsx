@@ -15,7 +15,7 @@ export default function Contact() {
             {/*Section Body*/}
             <div className="p-6">
                 {/*Contact window*/}
-                <div className="border-2 border-terminal-green/30 bg-black text-center max-w-4xl mx-auto glow-box">
+                <div className="border-2 border-terminal-green/30 bg-bg-black text-center max-w-4xl mx-auto glow-box">
                     {/* Window Header*/}
                     <div className="grid grid-cols-3 px-4 py-1 border-b border-terminal-green/50 bg-terminal-green/5">
                         <div className="flex gap-2 self-center">

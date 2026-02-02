@@ -13,7 +13,7 @@ export default function Hero() {
         <section
             id="home" className="py-10">
             {/*Hero Window*/}
-            <div className="border-2 border-terminal-green bg-black text-center max-w-4xl mx-auto">
+            <div className="border-2 border-terminal-green bg-bg-black text-center max-w-4xl mx-auto">
 
                 {/* Window Header*/}
                 <div className="grid grid-cols-3 px-4 py-1 border-b border-terminal-green/50 bg-terminal-green/5">

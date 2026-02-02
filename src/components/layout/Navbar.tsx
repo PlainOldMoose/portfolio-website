@@ -32,7 +32,7 @@ export default function Navbar() {
 
     return (
         <nav
-            className="sticky top-0 z-50 grid grid-cols-3 items-center border-b border-terminal-green text-terminal-green bg-black">
+            className="sticky top-0 z-50 grid grid-cols-3 items-center border-b border-terminal-green text-terminal-green bg-bg-black">
             <div className="flex items-center gap-2">
                 <Terminal size={30}/>
                 <a href="#" className="text-2xl font-bold pb-1">guest@luque.dev</a>
@@ -45,7 +45,7 @@ export default function Navbar() {
                     <a key={id}
                        href={`#${id}`}
                        className={`px-4 py-2 ${
-                           activeSection === id ? "bg-terminal-green text-black" : "hover:bg-terminal-green/10"
+                           activeSection === id ? "bg-terminal-green text-bg-black" : "hover:bg-terminal-green/10"
                        }`}
                     ><span className="text-xs mr-1 opacity-50">[{key}]</span>{label}</a>
                 ))}
