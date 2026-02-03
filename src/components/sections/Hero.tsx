@@ -13,7 +13,7 @@ export default function Hero() {
         <section
             id="home" className="py-10">
             {/*Hero Window*/}
-            <div className="border-2 border-terminal-green bg-black text-center max-w-4xl mx-auto">
+            <div className="border-2 border-terminal-green bg-bg-black text-center max-w-4xl mx-auto">
 
                 {/* Window Header*/}
                 <div className="grid grid-cols-3 px-4 py-1 border-b border-terminal-green/50 bg-terminal-green/5">
@@ -27,25 +27,38 @@ export default function Hero() {
 
                 {/*Window Body*/}
                 <div className="px-5 pt-2 pb-5 text-terminal-green">
-                    <div className="flex flex-col gap-0 text-terminal-green/70 items-baseline pb-10">
+                    <div className="flex flex-col gap-0 items-baseline pb-10 text-terminal-green/50">
                         <span>{'> INITIALIZING SYSTEM...'}</span>
                         <span>{'> LOADING PROFILE...'}</span>
                         <span>{'> STATUS: ONLINE'}</span>
                         <span>{'> WELCOME TO MY PROFILE'}</span>
                     </div>
                     <span className="text-terminal-green/70"> HELLO I'M</span>
-                    <pre className="py-10 ascii-art">{ASCII_LOGO}</pre>
+                    <pre className="pt-4 pb-10 ascii-art">{ASCII_LOGO}</pre>
                     <div className="flex justify-center items-center gap-2">
                         <ChevronRight size={16}/>
-                        <span className="glow-text text-2xl">JUNIOR SOFTWARE ENGINEER</span>
-                        <span className="cursor-blink">█</span>
+                        <span className="glow-text text-2xl">FULL-STACK SOFTWARE ENGINEER</span>
+
                     </div>
-                    <div className="mt-8 pt-4 border-t border-terminal-green/20"/>
+                    <div className="flex text-xl flex flex-col font-bold">
+                        <span>{'> LOCATION: HIGH WYCOMBE, UK'}</span>
+                        <span>{'> AVAILABLE: TRUE'}</span>
+                    </div>
+                    <div className="flex mt-8 flex-col gap-0 items-baseline text-terminal-green/50">
+                        <span>{'> PROFILE LOADED...'}</span>
+                        <span>{'> WELCOME, GUEST'}</span>
+                        <span>{'>'} <span className="cursor-blink">█</span></span>
+                    </div>
+                    <div className="my-6 border-t border-terminal-green/20"/>
                     <div className="flex items-center justify-center gap-4">
-                        <span className="text-xs text-terminal-green/50">LINKS:</span>
-                        <FaGithub size={32} opacity={0.30}/>
-                        <FaLinkedin size={32} opacity={0.30}/>
-                        <SiMaildotru size={32} opacity={0.30}/>
+                        <a href="https://github.com/PlainOldMoose" target="_blank" rel="noreferrer noopener"><FaGithub
+                            size={32} opacity={0.30} className="hover hover:opacity-100"/></a>
+                        <a href="https://www.linkedin.com/in/luque-van-der-merwe/" target="_blank"
+                           rel="noreferrer noopener"><FaLinkedin
+                            size={32} opacity={0.30} className="hover hover:opacity-100"/></a>
+                        <a href="mailto:luque@vandermerwe.uk" target="_blank"
+                           rel="noreferrer noopener"><SiMaildotru size={32} opacity={0.30}
+                                                                  className="hover hover:opacity-100"/></a>
                     </div>
                 </div>
             </div>
